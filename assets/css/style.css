@@ -2570,3 +2570,25 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
     /*---------------- */
 }
 
+
+.checked {
+  color: orange;
+}
+.review-star{
+  background-color: rgba(255, 255, 0, 0.115);
+  padding: 2px 4px;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.ingridience-div p{
+  color: #4e4d4d;
+  margin: 1rem 0;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.ingridience-div p b{
+  font-size: 1.8rem;
+  color: #fca311;
+}
