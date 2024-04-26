@@ -1,4 +1,8 @@
+#remove html file https://sweetsnap.in/index.html
+# to https://sweetsnap.in/home
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
